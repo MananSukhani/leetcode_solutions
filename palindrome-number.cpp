@@ -3,7 +3,7 @@
 class Solution {
 public:
     bool isPalindrome(int x) {
-        int orig, rev=0, rem;
+        long orig, rev=0, rem;
         orig = x;
         while(x>0){
             rem = x%10;
